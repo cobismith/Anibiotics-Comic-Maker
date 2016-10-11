@@ -66,7 +66,7 @@
 		container.rotation = 0;	
 
 		txt = new createjs.Text(document.getElementById('text_add').value, "20px Arial", "#000");
-		txt.font = "20px Londrina Solid"; 
+		txt.font = "12px Londrina Solid"; 
 		txt.textBaseline = "top";
 
 		container.addChild(txt);
@@ -81,7 +81,7 @@
 
 	}
 	
-	
+/*	
 	displayMasks = function () {
 
 		masks[1] = new createjs.Shape();
@@ -121,7 +121,7 @@
 		stage.update();							
 		
 	}
-
+*/
 	function sortObjectOrder ()
 	{
 		for (i = 0; i < clones.length; i++)
@@ -166,12 +166,12 @@
 		{
 			var image = new Image();
 			
-			if (i >= 16) yPos = 85;
+	if (i >= 9) { yPos = 100;}
 
 			// Invoked when the picture is loaded
 			image.onload = function (event) {
 
-				if (prevImage) xPos += 85; //event.target.width;
+				if (prevImage) xPos += 150; //event.target.width;
 				thumbs++;
 
 				// Display
@@ -179,13 +179,13 @@
 				
 				stage.addChild(img);
 				
-				img.scaleX = .5;
-				img.scaleY = .5;
+				img.scaleX = .4;
+				img.scaleY = .4;
 
-				if (thumbs > 16) { 
+				if (thumbs > 9) { 
 					img.y = 430 + yPos;
 				}
-				else if (thumbs == 16)
+				else if (thumbs == 9)
 				{
 					img.y = 430 + yPos;
 					xPos = 30;
@@ -251,6 +251,7 @@
 		}
 		image.src = "images/frames.jpg";
 	}
+	
 	
 	displayDroptext = function () {
 		var image = new Image ();
