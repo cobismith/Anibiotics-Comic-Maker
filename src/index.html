@@ -386,6 +386,8 @@
 
 		// Get the canvas screenshot as PNG
 		var screenshot = Canvas2Image.saveAsPNG(canvas, true, canvas.width, canvas.height, canvas.width, 358);
+		// ***** The hardcoded 358 is the height of the canvas that will be saved. Increase this for 
+		// a larger canvas to save.
 
 		// This is a little trick to get the SRC attribute from the generated <img> screenshot
 		canvas.parentNode.appendChild(screenshot);
@@ -440,7 +442,7 @@
 
 <div id="canvas_container">
 
-		<canvas  width="1280" height="650" id="canvas"></canvas>
+		<canvas  width="1280" height="650" id="canvas"></canvas> /* Change this to change canvas size */
 		
 		
 
