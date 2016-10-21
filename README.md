@@ -9,7 +9,7 @@ Uses the following, do as you please...
 
 ## About the Comic Maker ##
 
-This drag and drop comic maker was created by the State Library of Queensland (SLQ) for [Fun Palaces](http://funpalaces.co.uk/). It's been adapted for WHO Antibiotics Awareness Week in Vanuatu. This is a work in progress, you can test the beta here: https://cobismith.github.io/antibiotics-awareness-comic-maker/src/index.html
+This drag and drop comic maker was created by the State Library of Queensland (SLQ) for [Fun Palaces](http://funpalaces.co.uk/). It's been adapted for WHO Antibiotics Awareness Week in Vanuatu. This is a work in progress, you can test the beta here: https://cobismith.github.io/antibiotics-comic-maker/src/index.html
 
 It's from a concept by [Matt Finch](https://matthewfinch.me/about/) who devised a physical [comic book dice game](https://matthewfinch.me/2014/10/14/comic-book-dice-a-sequential-storytelling-game/) at the Museum of Contemporary Art and Design in Manila, Philippines. Matt is the 2016 Creative in Residence at SLQ. The game was designed by Phil Gullberg and Talia Yat of [The Edge at SLQ](http://edgeqld.org.au/).
 
